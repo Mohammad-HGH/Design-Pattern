@@ -36,7 +36,7 @@ class ComponentWithBackReference {
 /**
  * The client code.
  */
-function clientCode() {
+(function clientCode() {
     const p1 = new Prototype();
     p1.primitive = 245;
     p1.component = new Date();
@@ -65,6 +65,6 @@ function clientCode() {
     } else {
         console.log('Component with back reference is linked to the clone. Yay!');
     }
-}
+})()
 
-clientCode();
+// clientCode();
