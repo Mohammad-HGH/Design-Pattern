@@ -65,7 +65,7 @@ class Director {
 }
 
 
-function clientCode(director: Director) {
+function clientCode_4(director: Director) {
     const builder = new ConcreteBuilder1();
     director.setBuilder(builder);
 
@@ -84,4 +84,4 @@ function clientCode(director: Director) {
 }
 
 const director = new Director();
-clientCode(director);
+clientCode_4(director);
