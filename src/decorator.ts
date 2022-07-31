@@ -67,6 +67,7 @@ class ConcreteDecoratorB extends Decorator {
  * way it can stay independent of the concrete classes of components it works
  * with.
  */
+// @ts-ignore
 function clientCode(component: Component) {
     // ...
 
